@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 30vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h2 {
+  padding: 2rem;
+}
+
+#logo {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 4rem;
+  text-decoration: none;
+  color: white;
+  background: black;
+}
+
+.search-form {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid rbg(74, 68, 131);
+}
+
+.search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+.search-input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: 3px solid #4a4483;
+}
+
+.gallery-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+  padding: 0.5rem 0rem;
+}
+
+.gallery-info a {
+  color: grey;
+}
+
+.gallery-info .name {
+  background: black;
+  color: white;
+  padding: 0.2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 0rem;
+  width: 80%;
+  margin: auto;
+  row-gap: 5rem;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nav-button {
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.more {
+  padding: 1rem 3rem;
+  background: black;
+  color: white;
+  border: none;
+  cursor: white;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */
